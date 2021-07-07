@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>701</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QComboBox" name="comboBoxCategory"/>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxSubCategory"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableView" name="tableView"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>736</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDodaj">
+    <property name="title">
+     <string>Dodaj</string>
+    </property>
+    <addaction name="actionDodaj_Katrgorie"/>
+    <addaction name="separator"/>
+    <addaction name="actionDodaj_Subkategori"/>
+    <addaction name="actionDodaj_Produkt"/>
+   </widget>
+   <widget class="QMenu" name="menuEdytuj">
+    <property name="title">
+     <string>Edytuj</string>
+    </property>
+    <addaction name="actionEdytuj_Kategori"/>
+    <addaction name="actionEdytuj_Subkategori"/>
+   </widget>
+   <widget class="QMenu" name="menuUsu">
+    <property name="title">
+     <string>Usuń</string>
+    </property>
+    <addaction name="actionUsu_Kategori"/>
+    <addaction name="actionUsu_Subkategori"/>
+   </widget>
+   <addaction name="menuDodaj"/>
+   <addaction name="menuEdytuj"/>
+   <addaction name="menuUsu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionDodaj_Katrgorie">
+   <property name="text">
+    <string>Dodaj Katrgorie</string>
+   </property>
+  </action>
+  <action name="actionDodaj_Subkategori">
+   <property name="text">
+    <string>Dodaj Subkategorię</string>
+   </property>
+  </action>
+  <action name="actionDodaj_Produkt">
+   <property name="text">
+    <string>Dodaj Produkt</string>
+   </property>
+  </action>
+  <action name="actionEdytuj_Kategori">
+   <property name="text">
+    <string>Edytuj Kategorię</string>
+   </property>
+  </action>
+  <action name="actionEdytuj_Subkategori">
+   <property name="text">
+    <string>Edytuj Subkategorię</string>
+   </property>
+  </action>
+  <action name="actionUsu_Kategori">
+   <property name="text">
+    <string>Usuń Kategorię</string>
+   </property>
+  </action>
+  <action name="actionUsu_Subkategori">
+   <property name="text">
+    <string>Usuń Subkategorię</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
