@@ -11,15 +11,18 @@ CONFIG += c++11
 
 SOURCES += \
     addcategory.cpp \
+    addsubcategory.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     addcategory.h \
+    addsubcategory.h \
     mainwindow.h
 
 FORMS += \
     addcategory.ui \
+    addsubcategory.ui \
     mainwindow.ui
 
 # Default rules for deployment.
